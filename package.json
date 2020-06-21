@@ -1,9 +1,9 @@
 {
-  "name": "pzj-pages",
+  "name": "zce-pages",
   "version": "0.1.0",
   "description": "static web app workflow",
   "keywords": [
-    "pzj-pages",
+    "zce-pages",
     "zce"
   ],
   "homepage": "https://github.com/zce/pzj-pages#readme",
@@ -13,7 +13,8 @@
   "license": "MIT",
   "author": "viruser",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
   "directories": {
@@ -23,10 +24,28 @@
     "type": "git",
     "url": "git+https://github.com/zce/pzj-pages.git"
   },
+  "bin": "bin/zce-pages.js",
   "scripts": {
     "lint": "standard --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
   "devDependencies": {
     "standard": "^13.1.0"
   },
