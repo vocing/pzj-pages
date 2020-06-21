@@ -1,0 +1,36 @@
+{
+  "name": "pzj-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "pzj-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/pzj-pages#readme",
+  "bugs": {
+    "url": "https://github.com/zce/pzj-pages/issues"
+  },
+  "license": "MIT",
+  "author": "viruser",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/pzj-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
